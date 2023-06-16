@@ -2,6 +2,7 @@ import './App.css'
 import Loguito from '../src/assets/Logoremo.png'
 import Loguito1 from '../src/assets/Logo2.png'
 import Loguito2 from '../src/assets/Logo3.png';
+import Datos from '../src/assets/Datos.jpeg';
 
 function App() {
 
@@ -32,11 +33,14 @@ salud en Colombia tome decisiones pro en la calidad de vida de los colombianos.
   </div>
   <div id="Datos">
   <h1 className='title11'>Datos</h1>
+  <div className='container'>
+  <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNTFiYzJmODQtZTRlMS00ZGZjLWI5N2YtNjQ5NmM1YTI5MGRkIiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+  </div>
   </div>
 
   <div id="Conclusiones" className='titulo'>
   <h1 className='title11'>Conclusiones</h1>
-  <div>
+  <div className="conclusiones">
   <li>Cantidad de semanas 53 </li>
   <li>Casos reportados 172852 </li>
   <li>Departamento con mayor casos antioquia con 155856 </li>
