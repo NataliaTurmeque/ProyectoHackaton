@@ -1,7 +1,7 @@
 {
   "name": "proyecto",
   "private": true,
-  "homepages" : "http://NataliaTurmeque.github.io/ProyectoHackaton",
+  "homepage" : "https://NataliaTurmeque.github.io/ProyectoHackaton",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
